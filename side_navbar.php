@@ -1,14 +1,15 @@
-<div class="d-flex wrapper" id="sidenav">
-    <nav id="sidenav">
-        <div class="bg-light border-right" id="sidenav">
-            <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">g1</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">g2</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">g3</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">g4</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">g5</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">g6</a>
-            </div>
+<div class="container-fluid" style="padding: 0">
+    <div class="row">
+        <div class="col-sm-12">
+            <?php include("top_navbar.php")?>
         </div>
-    </nav>
+    </div>
+    <div class="row">
+            <div class="col-sm-1 d-flex flex-column" style="height: 100%; position:fixed; background-color: yellow;">
+                <div class="p-2"><a href="#about">About</a></div>
+                <div class="p-2"><a href="#services">Services</a></div>
+                <div class="p-2"><a href="#clients">Clients</a></div>
+                <div class="p-2"><a href="#contact">Contact</a></div>
+            </div>
+    </div>
 </div>
