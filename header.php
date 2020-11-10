@@ -21,6 +21,7 @@
 
     <!-- Other CSS File-->
     <link rel="stylesheet" href="public\css\sidenav.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -30,7 +31,8 @@
     <!-- <include(TEMPLATE_FRONT . DS . "top_navbar.php" )> -->
         <?php include("top_navbar.php") ?> 
         <?php include("side_navbar.php")?>
-    
 </body>
+
+<?php include("footer.php")?>
 
 </html>
