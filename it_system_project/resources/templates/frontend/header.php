@@ -43,6 +43,3 @@
        <?php include("top_navbar.php")?>
     </nav>
     
-</body>
-
-</html>

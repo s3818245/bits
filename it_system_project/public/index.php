@@ -1,12 +1,4 @@
 <?php include("../resources/templates/frontend/header.php") ?>
-<style>
-    html,
-    body {
-
-        margin: 0 auto;
-        overflow-x: hidden;
-    }
-</style>
 <div class="container-fluid">
     <div class="row">
         <?php include("../resources/templates/frontend/side_navbar.php") ?>
@@ -51,5 +43,7 @@
     <!-- Test layout -->
     <?php include("postlayout.php") ?>
 </div>
+</body>
 
 <?php include("../resources/templates/frontend/footer.php") ?>
+</html>
