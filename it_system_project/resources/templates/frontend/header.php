@@ -20,7 +20,7 @@
 
 
     <!-- Other CSS File-->
-    <link rel="stylesheet" href="it_system_project/public/css/style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
 
 </head>
 
