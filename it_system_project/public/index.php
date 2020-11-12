@@ -52,4 +52,4 @@
     <?php include("postlayout.php") ?>
 </div>
 
-<?php include("../resources/templates/frontend/footer.php") ?> -->
+<?php include("../resources/templates/frontend/footer.php") ?>

@@ -12,4 +12,10 @@ footer{
 .hover-icon:hover {
     color: #3f51b5;
 }
+.sidenav{
+    height: 100%; 
+    position:fixed; 
+    background-color: yellow;
+    z-index: -1;
+}
 
