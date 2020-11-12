@@ -35,7 +35,9 @@
 
 <body>
     <!-- <include(TEMPLATE_FRONT . DS . "top_navbar.php" )> -->
-       <?php include("side_navbar.php")?>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a02d23;">
+       <?php include("top_navbar.php")?>
+    </nav>
     
 </body>
 

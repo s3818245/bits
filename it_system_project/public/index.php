@@ -9,7 +9,7 @@
 </style>
 <div class="container-fluid">
     <div class="row">
-        <!-- <?php include("../resources/templates/frontend/side_navbar.php") ?> -->
+        <?php include("../resources/templates/frontend/side_navbar.php") ?>
     
     <div class="col-sm-11">
         <!-- Search form  -->
