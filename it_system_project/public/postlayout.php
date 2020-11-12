@@ -20,7 +20,7 @@
 
 
     <!-- Other CSS File-->
-    <link rel="stylesheet" href="it_system_project/public/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
 
 
     <!-- ICONS -->
@@ -36,6 +36,7 @@
 
         <div class = "card-header text-muted">
             Posted by: Username
+            <i class="fas fa-edit pull-right hover-icon"></i>
         </div>
 
         <div class = "card-body">
@@ -50,19 +51,18 @@
         
         <div class = "card-footer text-muted">
             
-            <i class="fa fa-thumbs-up hover-icon" style = "font-size:30px; color:gray"> 0 </i>
+            <i class="fa fa-thumbs-up hover-icon"> 0 </i>
 
             &nbsp;&nbsp;
 
-            <i class="fa fa-thumbs-down hover-icon" style = "font-size:30px; color:gray"> 0 </i>
+            <i class=" fa fa-thumbs-down hover-icon "> 0 </i>
 
             &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class='far fa-comment-dots' style='font-size:30px; color:gray; '></i>
+            <i class=" far fa-comment-dots hover-icon "></i>
 
             &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class='fas fa-edit' style = 'font-size:30px; color:gray; text-align:right'></i>
 
         </div>
     </div>
@@ -75,6 +75,7 @@
 
         <div class = "card-header text-muted">
             Posted by: Username
+            <i class='fas fa-edit pull-right hover-icon'></i>
         </div>
 
         <div class = "card-body">
@@ -82,22 +83,20 @@
             <p class = "class-text"> Post description
             </p>
         </div>
-        
+
         <div class = "card-footer text-muted">
             
-            <i class="fa fa-thumbs-up hover-icon" style = "font-size:30px; color:gray"> 0 </i>
+            <i class="fa fa-thumbs-up hover-icon"> 0 </i>
 
             &nbsp;&nbsp;
 
-            <i class="fa fa-thumbs-down hover-icon" style = "font-size:30px; color:gray"> 0 </i>
+            <i class="fa fa-thumbs-down hover-icon"> 0 </i>
 
             &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class='far fa-comment-dots' style='font-size:30px; color:gray; '></i>
+            <i class="far fa-comment-dots hover-icon" ></i>
 
             &nbsp;&nbsp;&nbsp;&nbsp;
-
-            <i class='fas fa-edit' style = 'font-size:30px; color:gray; text-align:right'></i>
 
         </div>
     </div>

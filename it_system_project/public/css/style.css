@@ -4,6 +4,12 @@ footer{
     width: 100%;
 }
 
-.hover-icon:hover {
-    color: #3f51b5!important;
+.hover-icon{
+    color: gray;
+    font-size: 30px!important;
 }
+
+.hover-icon:hover {
+    color: #3f51b5;
+}
+
