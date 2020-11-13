@@ -15,8 +15,11 @@ footer{
 .sidenav {
     height: 100vh;
     position: sticky;
+    background-color: #f7e7ce;
     top: 0;
-    background-color: yellow;
     z-index: -1;
+}
+.sidenav a {
+    color:black;
 }
 

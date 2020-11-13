@@ -1,32 +1,107 @@
+<?php include("../resources/templates/frontend/header.php") ?>
+<body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-2" style="border-width: end;">Profile pic</div>
-        <div class="col-sm-10">
-            <div class="col-sm-12">
-                <h3>Information</h3><br>
-                <div class="row">
-                    <div class="col-3">Name:</div>
-                    <div class="col-9"></div>
+        <?php include("../resources/templates/frontend/side_navbar.php") ?>
+        <div class="col-sm-11"> 
+            <div class="container mt-3">
+                <div id="profile_part">
+                    <img src="../resources/upload_image/avatar" alt="Profile pic" style="display: inline-block;">
+                    <h2 style="display: inline-block; padding-left: 3%">Name (Username/Nickname)</h2>
                 </div>
-                <div class="row">
-                    <div class="col-3">Gender:</div>
-                    <div class="col-9"></div>
-                </div>
-                <div class="row">
-                    <div class="col-3">Date of birth:</div>
-                    <div class="col-9"></div>
-                </div>
-            </div>
-            <hr>
-            <div class="col-sm-12">
-                <h3>Game Join:</h3>
-                <div class="row row-cols-2">
-                    <div class="col">aedvsdv</div>
-                    <div class="col">aedvsdv</div>
-                    <div class="col">aedvsdv</div>
-                    <div class="col">aedvsdv</div>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#about_me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#joined_game">Joined Game</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#setting">Setting</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="about_me" class="container tab-pane active"><br>
+                        <h3>About Me</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="joined_game" class="container tab-pane fade"><br>
+                        <h3>Joined Game</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                                <div class="col-sm">
+                                <?php include("gamecard.php") ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="setting" class="container tab-pane fade"><br>
+                        <h3>Setting</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</body>
+
+<?php include("../resources/templates/frontend/footer.php") ?>
+
+
+</html>
+
