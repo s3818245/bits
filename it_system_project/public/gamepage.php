@@ -48,5 +48,7 @@
     </div>
 
 </div>
-
+<?php 
+    include(TEMPLATES . DS . "footer.php");
+?>
 <script type="text/javascript" src="js/tools.js"></script>

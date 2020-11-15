@@ -1,7 +1,8 @@
-<?php include("../resources/templates/frontend/header.php") ?>
+<?php require_once("../config.php")?>
+<?php include(TEMPLATES. DS ."header.php")?>
 <div class="container-fluid">
     <div class="row">
-        <?php include("../resources/templates/frontend/side_navbar.php") ?>
+    <?php include(TEMPLATES. DS ."side_navbar.php")?>
     
     <div class="col-sm-11">
         <!-- Search form  -->
@@ -67,7 +68,7 @@
 </div>
 </body>
 
-<?php include("../resources/templates/frontend/footer.php") ?>
+<?php include(TEMPLATES. DS ."side_navbar.php")?>
 
 
 </html>

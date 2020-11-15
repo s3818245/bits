@@ -1,8 +1,9 @@
-<?php include("../resources/templates/frontend/header.php") ?>
+<?php require_once("../config.php")?>
+<?php include(TEMPLATES. DS ."header.php")?>
 <body>
 <div class="container-fluid">
     <div class="row">
-        <?php include("../resources/templates/frontend/side_navbar.php") ?>
+    <?php include(TEMPLATES. DS ."side_navbar.php")?>
         <div class="col-sm-11"> 
             <div class="container mt-3">
                 <div id="profile_part">
@@ -100,7 +101,7 @@
 </div>
 </body>
 
-<?php include("../resources/templates/frontend/footer.php") ?>
+<?php include(TEMPLATES. DS ."footer.php")?>
 
 
 </html>
