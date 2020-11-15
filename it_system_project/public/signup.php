@@ -89,8 +89,11 @@
                         </div>
 
                         <div class="form-group d-flex justify-content-center">
-                            <input type="submit" name="submit" class="btn btn-primary" style="width: 100%">
+                            <button type="submit" name="login" style="width: 100%" class="btn btn-primary">Sign up</button>
                         </div>
+                        <h6 class="text-center">
+                            <a href="login.php">Already have an account? Log in</a>
+                        </h6>
                     </form>
                 </div>
             </div>
