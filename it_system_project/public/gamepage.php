@@ -1,4 +1,10 @@
+<?php 
+    require_once("../config.php");
+    include(TEMPLATES . DS . "header.php");
+    ?>
+
 <div class="container-fluid">
+
     <div class="row">
         <div class="col-sm-2">Game Logo</div>
         <div class="col-sm-10">
