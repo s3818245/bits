@@ -8,22 +8,25 @@
                     </div>
 
                     <div class="row row-cols-5 ml-2 justify-content-around">
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        <div class="col star" style="text-align: center;">
+                            <ion-icon id="star1" name="star" size="large" onclick="rating(this.id);"></ion-icon>
                         </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        
+                        <div class="col star" style="text-align: center;">
+                            <ion-icon id ="star2" name="star" size="large" onclick="rating(this.id);"></ion-icon>
                         </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        <div class="col star" style="text-align: center">
+                            <ion-icon id="star3"name="star" size="large" onclick="rating(this.id);"></ion-icon>
                         </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        <div class="col star" style="text-align: center">
+                            <ion-icon id="star4" name="star" size="large" onclick="rating(this.id);"></ion-icon>
                         </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        <div class="col star" style="text-align: center">
+                            <ion-icon id="star5" name="star" size="large" onclick="rating(this.id);"></ion-icon>
                         </div>
                     </div>
+                    <input type="hidden" id="user-rating" value="0">
+                    <button class="btn btn-primary btn-md float-left">Rate</button>
                 </div>
             </div>
         </div>
@@ -41,21 +44,27 @@
                             Average Chart
                         </div>
                         <div class="col-8 border">
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
-                        </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
-                        </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
-                        </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
-                        </div>
-                        <div class="col" style="text-align: center">
-                            <ion-icon name="star-outline" size="large"></ion-icon>
-                        </div>
+
+                            <div class="col" style="text-align: center">
+                                <ion-icon name="star-outline" size="large"></ion-icon>
+                            </div>
+
+                            <div class="col" style="text-align: center">
+                                <ion-icon name="star-outline" size="large"></ion-icon>
+                            </div>
+
+                            <div class="col" style="text-align: center">
+                                <ion-icon name="star-outline" size="large"></ion-icon>
+                            </div>
+
+                            <div class="col" style="text-align: center">
+                                <ion-icon name="star-outline" size="large"></ion-icon>
+                            </div>
+
+                            <div class="col" style="text-align: center">
+                                <ion-icon name="star-outline" size="large"></ion-icon>
+                            </div>
+
                         </div>
                     </div>
                 </div>

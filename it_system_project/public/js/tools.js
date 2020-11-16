@@ -51,3 +51,26 @@ function votePost(post){
     }
 
 }
+
+function rating(id){
+    var star = document.getElementsByClassName("star");
+    var new_rating = id.replace("star", "");
+    var old_rating = document.getElementById("user-rating").value;
+
+    for(i=0; i<star.length; i++){
+        star[i].style.color = "gray";
+    }
+
+    if(new_rating!=old_rating){
+        for(i=0; i<new_rating; i++){
+            star[i].style.color = "#3f51b5";
+        }
+    }else{
+        new_rating = 0;
+    }
+
+    document.getElementById("user-rating").setAttribute("value", new_rating);
+
+    console.log(document.getElementById("user-rating").value);
+
+}
