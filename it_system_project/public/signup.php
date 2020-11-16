@@ -72,13 +72,13 @@
                         </div>
                         <label for="">Gender:</label>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="male" id="male" value="maleOption" checked>
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="maleOption" checked>
                             <label class="form-check-label" for="male">
                                 Male
                             </label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="female" id="female" value="femaleoption">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="femaleoption">
                             <label class="form-check-label" for="female">
                                 Female
                             </label>
