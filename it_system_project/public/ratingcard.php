@@ -9,20 +9,20 @@
 
                     <div class="row row-cols-5 ml-2 justify-content-around">
                         <div class="col star" style="text-align: center;">
-                            <ion-icon id="star1" name="star" size="large" onclick="rating(this.id);"></ion-icon>
+                            <ion-icon id="star1" name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                         
                         <div class="col star" style="text-align: center;">
-                            <ion-icon id ="star2" name="star" size="large" onclick="rating(this.id);"></ion-icon>
+                            <ion-icon id ="star2" name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                         <div class="col star" style="text-align: center">
-                            <ion-icon id="star3"name="star" size="large" onclick="rating(this.id);"></ion-icon>
+                            <ion-icon id="star3"name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                         <div class="col star" style="text-align: center">
-                            <ion-icon id="star4" name="star" size="large" onclick="rating(this.id);"></ion-icon>
+                            <ion-icon id="star4" name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                         <div class="col star" style="text-align: center">
-                            <ion-icon id="star5" name="star" size="large" onclick="rating(this.id);"></ion-icon>
+                            <ion-icon id="star5" name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                     </div>
                     <input type="hidden" id="user-rating" value="0">

@@ -52,7 +52,7 @@ function votePost(post){
 
 }
 
-function rating(id){
+function setRating(id){
     var star = document.getElementsByClassName("star");
     var new_rating = id.replace("star", "");
     var old_rating = document.getElementById("user-rating").value;
