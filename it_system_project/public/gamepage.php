@@ -20,19 +20,19 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row pt-3">
                 <ul class="nav nav-tabs ">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#description" aria-controls="description" aria-selected="true">Description:</a>
+                        <a class="nav-link active" data-toggle="tab" href="#description" aria-controls="description" aria-selected="true">Description</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#post" aria-controls="post" aria-selected="false">Post:</a>
+                        <a class="nav-link" data-toggle="tab" href="#post" aria-controls="post" aria-selected="false">Post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#rating" aria-controls="rating" aria-selected="false">Rating:</a>
+                        <a class="nav-link" data-toggle="tab" href="#rating" aria-controls="rating" aria-selected="false">Rating</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#memberlist" aria-controls="memberlist" aria-selected="false">Member list:</a>
+                        <a class="nav-link" data-toggle="tab" href="#memberlist" aria-controls="memberlist" aria-selected="false">Member list</a>
                     </li>
                 </ul>
             </div>
