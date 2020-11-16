@@ -8,20 +8,20 @@
                     </div>
 
                     <div class="row row-cols-5 ml-2 justify-content-around">
-                        <div class="col">
-                            Star
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
                         </div>
-                        <div class="col">
-                            Star
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
                         </div>
-                        <div class="col">
-                            Star
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
                         </div>
-                        <div class="col">
-                            Star
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
                         </div>
-                        <div class="col">
-                            Star
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
                         </div>
                     </div>
                 </div>
@@ -41,21 +41,21 @@
                             Average Chart
                         </div>
                         <div class="col-8 border">
-                            <div class="row">
-                                5 star chart
-                            </div>
-                            <div class="row">
-                                4 star chart
-                            </div>
-                            <div class="row">
-                                3 star chart
-                            </div>
-                            <div class="row">
-                                2 star chart
-                            </div>
-                            <div class="row">
-                                1 star chart
-                            </div>
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        </div>
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        </div>
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        </div>
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        </div>
+                        <div class="col" style="text-align: center">
+                            <ion-icon name="star-outline" size="large"></ion-icon>
+                        </div>
                         </div>
                     </div>
                 </div>
