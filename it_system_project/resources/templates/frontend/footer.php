@@ -1,4 +1,4 @@
-<footer>
+<footer style="background-color: #0B2838;">
     Copyright &copy;
     <script>
         document.write(new Date().getFullYear());
