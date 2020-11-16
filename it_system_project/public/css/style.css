@@ -12,13 +12,13 @@ footer{
 .hover-icon:hover {
     color: #3f51b5;
 }
-.sidenav {
+/* .sidenav {
     height: 100vh;
     position: sticky;
     background-color: #f7e7ce;
     top: 0;
     z-index: -1;
-}
+} */
 .sidenav a {
     color:black;
 }
