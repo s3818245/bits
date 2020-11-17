@@ -21,7 +21,7 @@
             &nbsp;&nbsp;
             <i class=" fa fa-thumbs-down hover-icon" id="post-01-down" onclick="votePost(this.id);" value="0"> 0 </i>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <i class=" far fa-comment-dots hover-icon "></i>
+            <i class=" far fa-comment-dots hover-icon" data-toggle="modal" data-target="#postcomment"></i>
             &nbsp;&nbsp;&nbsp;&nbsp;
         </div>
     </div>
@@ -53,10 +53,12 @@
 
             &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <i class="far fa-comment-dots hover-icon"></i>
+            <i class="far fa-comment-dots hover-icon" data-toggle="modal" data-target="#postcomment"></i>
 
             &nbsp;&nbsp;&nbsp;&nbsp;
 
         </div>
     </div>
+
+    <?php include(PAGES . DS . "postcomment.php");?>
 </div>
