@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .sidenav {
         position: sticky;
         left: 0;
@@ -12,7 +12,7 @@
         /* Scrollable contents if viewport is shorter than content. */
 
     }
-</style>
+</style> -->
 
 <div class="sidenav" style="width: 115px; background-color: #0B2838">
     <ul class="nav nav-sidebar ">
