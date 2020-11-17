@@ -4,14 +4,50 @@ footer{
     width: 100%;
 }
 
-.hover-icon{
-    color: gray;
-    font-size: 30px!important;
+.sidenav a {
+    color:black;
 }
 
-.hover-icon:hover {
-    color: #3f51b5;
+
+.sidenav {
+    position: sticky;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    top: 0;
+    /* Scrollable contents if viewport is shorter than content. */
+
 }
+
+/* Form stuffs */
+
+.form-group input {
+    border-style: none;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #777;
+    outline: none;
+    padding: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-bottom: 2px solid #03a9f4;
+}
+
+.form-group .fa {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
 /* .sidenav {
     height: 100vh;
     position: sticky;
@@ -19,7 +55,15 @@ footer{
     top: 0;
     z-index: -1;
 } */
-.sidenav a {
-    color:black;
+
+/* Post stuffs */
+
+.hover-icon{
+    color: gray;
+    font-size: 30px!important;
+}
+
+.hover-icon:hover {
+    color: #3f51b5;
 }
 
