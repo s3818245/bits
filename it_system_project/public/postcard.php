@@ -6,7 +6,7 @@
                     <div class="row ml-2">
                         <h5>What news?</h5>
                     </div>
-                    <div class="row">
+                    <div class="row d-flex justify-content-between">
                         <div class="col-1">
                             <img class="rounded-circle border border-logo" style="max-height: 50px; max-width: 50px;" src="https://lh3.googleusercontent.com/euVG21PNrs9fYP9jKaOPp6PNol80V5-E9y3rxUeWrSUEn-jA4M5lwpuekTRgcEUPN8M" alt="Logo">
                         </div>

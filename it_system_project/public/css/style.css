@@ -23,6 +23,13 @@ footer{
 
 }
 
+@media (max-width: 767px) {                  
+    .sidenav {
+       display: none;
+    }
+ }
+ 
+
 /* Form stuffs */
 
 .form-group input {
@@ -37,7 +44,7 @@ footer{
     box-sizing: border-box;
 }
 
-.form-group input:focus {
+.form-group :focus{
     border-bottom: 2px solid #03a9f4;
 }
 
