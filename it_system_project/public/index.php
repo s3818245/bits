@@ -4,7 +4,7 @@
         
         <?php include("../resources/templates/frontend/side_navbar.php") ?>
             
-        <div class="col-10">
+        <div class="col-md-10 col-sm-11 col-12">
             <!-- Search form  -->
             <div class="row" style="margin-top: 1%;">
                 <div class="col-sm-1"></div>
@@ -26,8 +26,8 @@
 
 
                     </form> -->
-                    <div class="input-group d-flex justify-content-center md-form form-sm mt-0 mb-3">
-                        <input class="form-control form-control-md my-0 py-1 red-border" style="width: 80%;" type="text" placeholder="Search" aria-label="Search">
+                    <div class="input-group d-flex justify-content-center mt-0 mb-3 form-inline">
+                        <input class="form-control my-0 py-1 mx-1 red-border" style="max-width: 80%;" type="text" placeholder="Search" aria-label="Search">
                         <div class="input-group-btn">
                             <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="label-icon">Category</span> <span class="caret">&nbsp;</span></button>
                             <div class="dropdown-menu dropdown-menu-right">

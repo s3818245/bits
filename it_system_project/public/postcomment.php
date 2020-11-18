@@ -69,13 +69,15 @@
             </div>
 
             <!-- Modal footer -->
-            <div class="modal-footer justify-content-between">
+            <div class="modal-footer">
+                <div class="container-fluid">
                 <form action="" class="">
-                    <div class="form-group row">
-                        <input type="text" class="form-control" id="comment" placeholder="Enter your comment">
-                        <button type="button" class="btn btn-secondary btn-md">Post</button>
+                    <div class="form-group form-inline d-flex justify-content-betweens">
+                        <input type="text"  style="width: 80%;" class="form-control" id="comment" placeholder="Enter your comment">
+                        <button type="button" class="btn btn-secondary btn-md mx-2">Post</button>
                     </div>
                 </form>
+                </div>
             </div>
         </div>
     </div>

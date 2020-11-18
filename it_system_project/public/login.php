@@ -69,12 +69,12 @@
                     <form class="form" action="" method="post" name="loginForm">
                         <div class="form-group">
                             <!-- <label for="">Username:</label> -->
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <i class="fa fa-user icon_login" aria-hidden="true"></i>
                             <input type="text" name="username" placeholder="Username">
                         </div>
                         <div class="form-group">
                             <!-- <label for="">Password:</label> -->
-                            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                            <i class="fa fa-unlock-alt icon_login" aria-hidden="true"></i>
                             <input type="password" name="password" placeholder="Password">
                         </div>
                         <div class="form-group d-flex justify-content-center">
