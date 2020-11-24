@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="px-4 pt-3">
+            <div class="card mb-4">
+                <div class="card-body text-muted">
+                    <div class="row ml-2">
+                        <h5>What news?</h5>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-1">
+                            <img class="rounded-circle border border-logo" style="max-height: 50px; max-width: 50px;" src="{{url('/upload_image/gamecardlogo.png')}}" alt="Logo">
+                        </div>
+                        <div class="col-10 border rounded">
+                            <div class="mx-2 py-3" role="button" aria-placeholder="Post here">
+                                Post Here
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @include('components.postlayout')
+    </div>
+</div>
