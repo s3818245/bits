@@ -1,5 +1,3 @@
-
-
 function showTabs(content) {
     for (i = 0; i < 4; i++) {
         document.getElementsByClassName("tabContent")[i].style.display = "none";
@@ -74,5 +72,19 @@ function setRating(id){
     document.getElementById("user-rating").setAttribute("value", new_rating);
 
     console.log(document.getElementById("user-rating").value);
+}
 
+function ageSlider(){
+    const
+  range = document.getElementById('range'),
+  rangeV = document.getElementById('rangeV'),
+  setValue = ()=>{
+    const
+      newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+      newPosition = 10 - (newValue * 0.2);
+    rangeV.innerHTML = `<span>${range.value}</span>`;
+    rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+  };
+document.addEventListener("DOMContentLoaded", setValue);
+range.addEventListener('input', setValue);
 }

@@ -37,6 +37,10 @@
                                 </ul>
                             </div>
                             <button id="searchBtn" type="button" class="btn btn-primary btn-search align-items-center"><span class="label-icon" style="text-align: center">Search</span></button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Add new game
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -62,8 +66,6 @@
 </div>
 
 </body>
-
-
-
+@include('components.addgame')
 
 </html>

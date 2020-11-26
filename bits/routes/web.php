@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,9 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('signup',['title' => 'Sign Up']);
 });
+
+Route::get('/addgame', function () {
+    return view('components.addgame',['title' => 'Add Game']);
+});
+
+Route::get('/testing', [TestingController::class, 'index']);
