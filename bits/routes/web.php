@@ -36,8 +36,4 @@ Route::get('/signup', function () {
     return view('signup',['title' => 'Sign Up']);
 });
 
-Route::get('/addgame', function () {
-    return view('components.addgame',['title' => 'Add Game']);
-});
-
 Route::get('/testing', [TestingController::class, 'index']);
