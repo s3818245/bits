@@ -88,3 +88,14 @@ function ageSlider(){
 document.addEventListener("DOMContentLoaded", setValue);
 range.addEventListener('input', setValue);
 }
+
+function editImageModal(buttonId){
+    var imageChanged = document.getElementById(buttonId).getAttribute("value");
+    var title = document.getElementById("editImageModalTitle");
+    var file = document.getElementById("imageFile");
+
+    title.innerHTML = "Select image for " + imageChanged;
+
+    file.name = imageChanged;
+
+}
