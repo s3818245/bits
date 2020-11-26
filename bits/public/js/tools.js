@@ -26,7 +26,7 @@ function votePost(post){
         iconClicked.style.color = "#3f51b5";
         iconClicked.setAttribute("value","1");
 
-        iconClicked.innerHTML = clickedVoteCount+1;
+        iconClicked.innerHTML = " "+ (clickedVoteCount+1);
 
         console.log(iconClicked.getAttribute("value"))
     }
@@ -34,7 +34,7 @@ function votePost(post){
         iconClicked.style.color = "gray";
         iconClicked.setAttribute("value","0");
 
-        iconClicked.innerHTML = clickedVoteCount-1;
+        iconClicked.innerHTML = " "+ (clickedVoteCount-1);
 
         console.log(iconClicked.getAttribute("value"))
     }
@@ -42,12 +42,12 @@ function votePost(post){
         iconClicked.style.color = "#3f51b5";
         iconClicked.setAttribute("value","1");
 
-        iconClicked.innerHTML = clickedVoteCount+1;
+        iconClicked.innerHTML = " "+ (clickedVoteCount+1);
 
         iconNotClicked.style.color = "gray";
         iconNotClicked.setAttribute("value","0");
 
-        iconNotClicked.innerHTML = notClickedVoteCount-1;
+        iconNotClicked.innerHTML = " "+ (notClickedVoteCount-1);
     }
 
 }
