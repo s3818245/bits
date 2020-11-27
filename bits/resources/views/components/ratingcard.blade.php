@@ -25,8 +25,22 @@
                             <ion-icon id="star5" name="star" size="large" onclick="setRating(this.id);"></ion-icon>
                         </div>
                     </div>
-                    <input type="hidden" id="user-rating" value="0">
-                    <button class="btn btn-primary btn-md float-left">Rate</button>
+                    <br>
+                    <form action="">
+                        <input type="hidden" id="user-rating" value="0">
+                        <div class="form-row ml-2">
+                            <div class="col-ml-2">
+                                <label for="rating-comment"> <h5>Comment</h5></label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" placeholder="Write your comment">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                            <button type="submit"class="btn btn-primary btn-md float-left">Rate</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
