@@ -31,7 +31,7 @@ function votePost(post){
         console.log(iconClicked.getAttribute("value"))
     }
     else if(clickedValue=="1" && notClickedValue=="0"){
-        iconClicked.style.color = "gray";
+        iconClicked.style.color = "";
         iconClicked.setAttribute("value","0");
 
         iconClicked.innerHTML = " "+ (clickedVoteCount-1);
@@ -44,7 +44,7 @@ function votePost(post){
 
         iconClicked.innerHTML = " "+ (clickedVoteCount+1);
 
-        iconNotClicked.style.color = "gray";
+        iconNotClicked.style.color = "";
         iconNotClicked.setAttribute("value","0");
 
         iconNotClicked.innerHTML = " "+ (notClickedVoteCount-1);
