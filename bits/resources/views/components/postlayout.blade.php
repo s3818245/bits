@@ -61,4 +61,5 @@
     </div>
 
     @include('components.postcomment')
+    @include('components.editpost')
 </div>

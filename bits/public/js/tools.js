@@ -99,3 +99,20 @@ function editImageModal(buttonId){
     file.name = imageChanged;
 
 }
+
+// jQuery
+
+$(document).on("dblclick", "#jquerytest", function(){
+
+    var current = $(this).text();
+    $("#jquerytest").html('<textarea class="form-control" id="newcont" rows="5">'+current+'</textarea>');
+    $("#newcont").focus();
+    
+    $("#newcont").focus(function() {
+        console.log('in');
+    }).blur(function() {
+         var newcont = $("#newcont").val();
+         $("#jquerytest").text(newcont);
+    });
+
+})
