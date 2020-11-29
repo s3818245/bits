@@ -1,3 +1,8 @@
+@include('components.editcmt_des_bio', 
+['modalId' => 'commentModal',
+'edittext' => '<label for="editcomment">New Comment</label>
+                <input type="text" class="form-control pl-2" id="editcomment" placeholder="New Comment">',
+'modaltitle' => 'Edit Comment'])
 <!-- Modal -->
 <div class="modal fade" id="postcomment" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -24,8 +29,13 @@
                             </div>
                         </div>
                         <div class="row border-top" style="color:black">
-                            <div class="px-1" style="height: auto;">
+                            <div class="px-1 col-sm-11" style="height: auto;">
                                 Comment
+                            </div>
+                            <div class="px-1 col-sm-1" style="height: auto;">
+                                <a data-toggle="modal" href="#commentModal" data-dismiss="modal">
+                                    <i  class='far fa-edit hover-icon' data-placement="top" title="Edit Comment" data-toggle="tooltip"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

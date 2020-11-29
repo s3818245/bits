@@ -1,6 +1,17 @@
+@include('components.editcmt_des_bio', 
+['modalId' => 'infocardModal',
+'edittextarea'=> '<label for="editgamedescription">New Description</label>
+                <textarea class="form-control" id="editgamedescription" rows="10"></textarea>',
+'modaltitle' => 'Edit Game Description'])
 <div class="container-fluid">
     <div class="container">
-        <div class="px-4 pt-3">
+        <div class= "row">
+            <div class=" col-sm-1 px-4 pt-3">
+                <span data-toggle="modal" data-target="#infocardModal">
+                    <i  class='far fa-edit hover-icon' data-placement="top" title="Edit Description" data-toggle="tooltip"></i>
+                </span>
+            </div>
+            <div class="col-sm-11 px-4 pt-3">
             <h4>About the Game:</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, voluptas minima, totam doloremque incidunt libero sint sapiente quod consequatur velit impedit temporibus debitis a nesciunt possimus odio earum facere odit recusandae tempore soluta accusantium est iste molestiae! Tenetur maiores accusantium possimus cumque consequatur, asperiores labore quisquam ducimus aperiam quos excepturi ad distinctio sequi reiciendis rerum! Ipsam, commodi obcaecati odio deleniti sunt accusantium nemo ullam, dolore unde, dolores itaque dolorum tempora quasi corrupti doloremque optio eaque non nobis ipsum hic! Repellendus officiis doloribus dolorum, dignissimos nihil debitis dolore, illo nulla omnis esse, suscipit sequi. In nam iure maiores, quaerat dolor similique.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, voluptas minima, totam doloremque incidunt libero sint sapiente quod consequatur velit impedit temporibus debitis a nesciunt possimus odio earum facere odit recusandae tempore soluta accusantium est iste molestiae! Tenetur maiores accusantium possimus cumque consequatur, asperiores labore quisquam ducimus aperiam quos excepturi ad distinctio sequi reiciendis rerum! Ipsam, commodi obcaecati odio deleniti sunt accusantium nemo ullam, dolore unde, dolores itaque dolorum tempora quasi corrupti doloremque optio eaque non nobis ipsum hic! Repellendus officiis doloribus dolorum, dignissimos nihil debitis dolore, illo nulla omnis esse, suscipit sequi. In nam iure maiores, quaerat dolor similique.</p>
@@ -12,6 +23,7 @@
             <hr style="border-top: 2px solid;">
             <h4>Sth else?:</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae vero aliquid doloremque quo! Earum impedit, quidem numquam dolore quibusdam voluptates deleniti voluptas quod magni reprehenderit repudiandae vero doloremque porro?</p>
+            </div>
         </div>
     </div>
 </div>

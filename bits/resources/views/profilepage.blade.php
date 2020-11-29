@@ -1,4 +1,12 @@
 @include('templates.header')
+@include('components.editimage')
+@include('components.editcmt_des_bio',
+['modalId' => 'profileModal',
+'edittext' => '<label for="editusername">New Username</label>
+<input type="text" class="form-control pl-2" id="editusername" placeholder="New Username">',
+'edittextarea'=> '<label for="editaboutme">Description</label>
+<textarea class="form-control" id="editaboutme" rows="5"></textarea>',
+'modaltitle' => 'Edit Profile'])
 
 <body>
     <div class="container-fluid">
@@ -8,11 +16,9 @@
                 <div class="container mt-3">
                     <div id="profile_part">
                         <div class="img-container">
-                            <img src="{{url('/upload_image/avatar')}}" alt="Profile pic"
-                                style="display: inline-block; object-fit: cover; height:210px; width:210px">
+                            <img src="{{url('/upload_image/avatar')}}" alt="Profile pic" style="display: inline-block; object-fit: cover; height:210px; width:210px">
                             <div class="img-button">
-                                <button id="userId-avatar" class="btn btn-light hover-button" value="avatar"
-                                    data-toggle="modal" data-target="#editImageModal" onclick="editImageModal(this.id)">
+                                <button id="userId-avatar" class="btn btn-light hover-button" value="avatar" data-toggle="modal" data-target="#editImageModal" onclick="editImageModal(this.id)">
                                     <ion-icon name="camera-outline" class="" style="font-size:30px"></ion-icon>
                                 </button>
                             </div>
@@ -54,8 +60,20 @@
                 </div>
                 <div id="setting" class="container tab-pane fade"><br>
                     <h3>Setting</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3 ml-auto mr-auto" style="font-size: 120%">Edit Profile</div>
+                            <div class=" col-sm-9 ml-auto mr-auto">
+                                <i class='far fa-edit hover-icon' data-toggle="modal" data-target="#profileModal"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3 ml-auto mr-auto" style="font-size: 120%">Location</div>
+                            <div class="col-sm-9 ml-auto mr-auto">
+                                <input type="checkbox" checked data-toggle="toggle" data-onstyle="outline-dark">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
