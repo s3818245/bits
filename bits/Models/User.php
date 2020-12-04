@@ -16,11 +16,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-
-    protected $keyType = 'string';
     protected $fillable = [
         'name',
-        'username',
+        'email',
         'password',
     ];
 
@@ -40,29 +38,6 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'username_verified_at' => 'datetime',
+        'email_verified_at' => 'datetime',
     ];
-
-    /**
-     * Relationships
-     */
-
-    public function gameJoined(){
-        return $this-> belongsToMany('app\Models\Game','user_game', 'user_id', 'game_id');
-    }
-    public function vote(){
-        return $this->belongsToMany('app\Models\Post', 'vote', 'user_id', 'game_id') ->withPivot('vote_choice');
-    }
-    public function comment(){
-        return $this->hasMany('app\Models\Comment');
-    }
-    public function post(){
-        return $this->hasMany('app\Models\Post');
-    }
-    public function rates(){
-        return $this->belongsToMany('app\Models\Game', 'rate', 'user_id', 'game_id')->withPivot('value','rate_comment', 'date_rate');
-    }
-    public function adminPages(){
-        return $this->hasMany('app\Models\Game');
-    }
 }
