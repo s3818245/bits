@@ -21,11 +21,11 @@
 
 
     <!-- Other CSS File-->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 
     <!-- Other JS File -->
 
-    <script src="{{ asset('js/tools.js') }}"></script>
+    <script src="{{ secure_asset('js/tools.js') }}"></script>
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
